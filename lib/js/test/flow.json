@@ -11,6 +11,9 @@
 	  "FungibleToken": "./contracts/utility/FungibleToken.cdc",
 	  "NonFungibleToken": "./contracts/utility/NonFungibleToken.cdc",
 	  "MetadataViews": "./contracts/utility/MetadataViews.cdc",
+	  "DapperUtilityCoin": "./contracts/utility/dapper/DapperUtilityCoin.cdc",
+	  "nba_NFT": "./contracts/utility/dapper/nba_NFT.cdc",
+	  "TokenForwarding": "./contracts/utility/dapper/TokenForwarding.cdc",
 	  "FlowToken": {
 		"aliases": {
 		  "emulator": "0x0ae53cb6e3f42a79"
@@ -31,7 +34,7 @@
 	"deployments": {
 	  "emulator": {
 		"emulator-account": [
-		  "NonFungibleToken","NFTStorefront", "NFTStorefrontV2", "MetadataViews", "FungibleToken"
+		  "NonFungibleToken","NFTStorefront", "NFTStorefrontV2", "MetadataViews", "FungibleToken", "DapperUtilityCoin", "TokenForwarding", "nba_NFT"
 		]
 	  }
 	}

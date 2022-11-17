@@ -29,6 +29,24 @@
                 "testnet": "0x324c34e1c517e4db",
                 "mainnet": "0x49a7cda3a1eecc29"
             }
+        },
+        "DapperUtilityCoin": {
+            "source": "./contracts/utility/dapper/DapperUtilityCoin.cdc",
+            "aliases": {
+                "testnet": "0x82ec283f88a62e65"
+            }
+        },
+        "nba_NFT": {
+            "source": "./contracts/utility/dapper/nba_NFT.cdc",
+            "aliases": {
+                "testnet": "0x04625c28593d9408"
+            }
+        },
+        "TokenForwarding": {
+            "source": "./contracts/utility/dapper/TokenForwarding.cdc",
+            "aliases": {
+                "testnet": "0x51ea0e37c27a1f1a"
+            }
         }
     },
     "networks": {
